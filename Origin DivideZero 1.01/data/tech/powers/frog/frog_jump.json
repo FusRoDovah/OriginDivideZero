@@ -1,0 +1,18 @@
+{
+    "name": "Frog Jump",
+    "description": "You jump, dumbass.",
+    "condition": {
+        "type": "origins:exists"
+    },
+    "type": "origins:launch",
+    "cooldown": 100,
+    "speed": 1.5,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+	"bar_index": 22
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

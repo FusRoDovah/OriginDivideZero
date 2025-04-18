@@ -1,0 +1,11 @@
+{
+    "name": "Dehydration",
+    "description": "Since you are sensitive to heat, the desert might fuck you.",
+    "condition": {
+        "type": "origins:biome",
+        "biome": "desert"
+    },
+    "type": "origins:burn",
+    "interval": 10,
+    "burn_duration": 50
+}

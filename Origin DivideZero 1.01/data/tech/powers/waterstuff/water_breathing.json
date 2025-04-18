@@ -1,0 +1,14 @@
+{
+    "name": "Waterbreathing",
+    "description": "You can breath in water for some reason.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 5
+    }
+}

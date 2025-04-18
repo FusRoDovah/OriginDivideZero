@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "tech:frog",
+	"tech:testorigin"
+    ],
+    "enabled": true
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Aqua Affinity",
+    "description": "You swim with the grace like a dolphin despite being less cruel than one - hopefully.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "id": "dolphins_grace",
+                "duration": 22,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    }
+}

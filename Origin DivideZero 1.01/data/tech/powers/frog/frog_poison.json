@@ -1,0 +1,21 @@
+{
+    "name": "Frog Skin",
+    "description": "When you get hit, the enemy gets poisoned.",
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "id": "minecraft:poison",
+            "duration": 400,
+            "amplifier": 2,
+            "show_particles": true,
+            "show_icon": false
+        }
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+	"bar_index": 10
+    }
+}
