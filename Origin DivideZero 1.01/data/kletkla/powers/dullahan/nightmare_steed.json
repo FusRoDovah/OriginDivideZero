@@ -21,7 +21,7 @@
         "execute_chosen_when_orb": true,
         "entity_action_respawned": {
             "type": "origins:execute_command",
-            "command": "execute as @s at @s run function tech:dullahan/kill_steed"
+            "command": "execute as @s at @s run function kletkla:dullahan/kill_steed"
         }
     },
     "activate": {
@@ -37,7 +37,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "execute as @s run function tech:dullahan/summon_steed"
+                    "command": "execute as @s run function kletkla:dullahan/summon_steed"
                 },
                 {
                     "type": "origins:change_resource",
@@ -57,7 +57,7 @@
                         "actions": [
                             {
                                 "type": "origins:execute_command",
-                                "command": "execute as @s at @s run function tech:dullahan/kill_steed"
+                                "command": "execute as @s at @s run function kletkla:dullahan/kill_steed"
                             },
                             {
                                 "type": "origins:change_resource",

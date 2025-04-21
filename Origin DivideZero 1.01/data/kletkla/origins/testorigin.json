@@ -2,7 +2,7 @@
     "name": "Testorigin",
     "description": "Just a random origin for testing",
     "powers": [
-        "tech:dullahan/nightmare_steed"
+        "kletkla:dullahan/nightmare_steed"
     ],
     "icon": {
         "id": "minecraft:lantern",

@@ -1,4 +1,4 @@
-summon minecraft:skeleton_horse ~ ~ ~1 {Tame:1,SaddleItem:{id:"minecraft:saddle",Count:1},Attributes:[{Name:"generic.movement_speed",Base:0.4d}],Invulnerable:1,Tags:["temp","Dullahan_Horse"],DeathLootTable:"minecraft:empty"}
+summon minecraft:skeleton_horse ~ ~ ~1 {Tame:1b,SaddleItem:{id:"minecraft:saddle",Count:1},Attributes:[{Name:"generic.movement_speed",Base:0.4d}],Invulnerable:1b,Tags:["temp","Dullahan_Horse"],DeathLootTable:"minecraft:empty"}
 execute at @s run particle minecraft:ash ~ ~ ~ 1 1 1 00.01 200 normal
 
 scoreboard players operation @s Nightmare += #fakeMax Nightmare

@@ -1,7 +1,7 @@
 {
     "origins": [
-        "tech:frog",
-	"tech:testorigin"
+        "kletkla:frog",
+	    "kletkla:testorigin"
     ],
     "enabled": true
 }

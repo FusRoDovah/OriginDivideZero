@@ -2,11 +2,11 @@
     "name": "Frog",
     "description": "Your frog character has certain traits deriving from your frog ancestry.",
     "powers": [
-        "tech:waterstuff/aqua_affinity",
-        "tech:frog/frog_jump",
-        "tech:frog/frog_poison",
-        "tech:heatstuff/heat_sensitive",
-        "tech:waterstuff/water_breathing"
+        "kletkla:waterstuff/aqua_affinity",
+        "kletkla:frog/frog_jump",
+        "kletkla:frog/frog_poison",
+        "kletkla:heatstuff/heat_sensitive",
+        "kletkla:waterstuff/water_breathing"
     ],
     "icon": {
         "id": "minecraft:lily_pad",
