@@ -7,8 +7,11 @@
 	    "kletkla:buffs/no_food",
 	    "kletkla:debuffs/day_debuffs",
 	    "kletkla:buffs/night_buffs",
-	    "kletkla:debuffs/undead",
-	    "kletkla:dullahan/soul"
+	    "kletkla:entity/undead",
+	    "kletkla:dullahan/soul",
+        "kletkla:dullahan/get_pumpkin",
+        "kletkla:dullahan/equip_head",
+        "kletkla:dullahan/headless"
     ],
     "icon": {
         "id": "minecraft:lantern",

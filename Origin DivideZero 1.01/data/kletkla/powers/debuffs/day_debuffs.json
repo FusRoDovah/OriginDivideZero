@@ -17,13 +17,13 @@
 	"duration_per_stack":20,
 	"effects":[
 		{
-			"effect":"minecraft:hunger",
+			"id":"minecraft:hunger",
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
 		},
 		{
-			"effect":"minecraft:slowness",
+			"id":"minecraft:slowness",
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false

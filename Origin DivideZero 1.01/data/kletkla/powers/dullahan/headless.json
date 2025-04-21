@@ -1,0 +1,28 @@
+{
+    "name": "Headless",
+    "description": "Without your head you see jackshit",
+    "hidden": false,
+    "condition": {
+        "inverted": true,
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "jack_o_lantern"
+            }
+        }
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "id": "blindness",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

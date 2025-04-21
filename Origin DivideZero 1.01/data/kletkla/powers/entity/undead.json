@@ -1,6 +1,6 @@
 {
 	"name": "Undead",
     "description": "You are an undead creature.",
-	"type":"origins:entity_group",
-	"group":"undead"
+	"type": "origins:modify_type_tag",
+    "tag": "minecraft:undead"
 }
