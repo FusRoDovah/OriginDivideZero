@@ -1,39 +1,26 @@
 {
-    "name": "Daywalker stuff",
-    "description": "While being exposed to the bare sun, you are just a fricking weakling.",
-    "condition": {
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "hidden":true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
         "type": "origins:exposed_to_sun"
-    },
-    "type": "origins:action_over_time",
-    "interval": 20,
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "duration": 200,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": true,
-            "id": "minecraft:weakness"
-        }
-    },
-    "rising_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "id": "minecraft:weakness",
-            "duration": 10,
-            "amplifier": 0,
-            "show_particles": false,
-            "show_icon": true
-        }
-    },
-    "falling_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "id": "minecraft:weakness",
-            "duration": 10,
-            "amplifier": 0,
-            "show_particles": true,
-            "show_icon": true
-        }
-    }
+      }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:weakness 2 1 true"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:slowness 2 0 true"
+      }
+    ]
+  }
 }

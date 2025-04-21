@@ -1,0 +1,18 @@
+{
+    "name": "Dullahan",
+    "description": "A headless horseman, cursed to roam the land in search of their lost head. You are a Dullahan, a creature of folklore and legend. You are bound to your steed, and together you are a force to be reckoned with.",
+    "powers": [
+        "kletkla:dullahan/nightmare_steed",
+	    "kletkla:debuffs/water_heavy",
+	    "kletkla:buffs/no_food",
+	    "kletkla:debuffs/day_debuffs",
+	    "kletkla:buffs/night_buffs",
+	    "kletkla:debuffs/undead",
+	    "kletkla:dullahan/soul"
+    ],
+    "icon": {
+        "id": "minecraft:lantern",
+        "amount": 1
+    },
+    "impact": 3
+}
