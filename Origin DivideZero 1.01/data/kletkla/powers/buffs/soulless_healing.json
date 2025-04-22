@@ -1,0 +1,27 @@
+{
+    "name": "Soulless healing",
+    "description": "The light of the soul fire seems to feed you.",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "kletkla:soulless_saturation_light_sources"
+        },
+        "radius": 5,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effect": {
+        "id": "minecraft:saturation",
+        "duration": 100,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

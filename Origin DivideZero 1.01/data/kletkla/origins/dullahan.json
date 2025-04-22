@@ -11,7 +11,9 @@
 	    "kletkla:dullahan/soul",
         "kletkla:dullahan/get_pumpkin",
         "kletkla:dullahan/equip_head",
-        "kletkla:dullahan/headless"
+        "kletkla:dullahan/headless",
+        "kletkla:buffs/soulless",
+        "kletkla:buffs/soulless_healing"
     ],
     "icon": {
         "id": "minecraft:lantern",
